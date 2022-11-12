@@ -1,0 +1,27 @@
+{
+  "name": "ain-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "fighter": "./bin/ain-pack.js"
+  },
+  "devDependencies": {
+    "@babel/generator": "^7.20.4",
+    "@babel/traverse": "^7.20.1",
+    "@babel/types": "^7.20.2",
+    "babylon": "^6.18.0",
+    "less": "^4.1.3"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "mkdirp": "^0.5.1",
+    "tapable": "^2.2.1"
+  }
+}
